@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5252/security-db
+    url: jdbc:postgresql://localhost:5432/security-db
     driver-class-name: org.postgresql.Driver
-    username: admin
+    username: postgres
     password: admin
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
